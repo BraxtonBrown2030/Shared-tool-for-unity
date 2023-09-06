@@ -6,4 +6,11 @@ using UnityEngine;
 public class FloatData :ScriptableObject
 {
     public float numberFloat;
+
+    public void UpdateFloat()
+    {
+
+
+
+    }
 }

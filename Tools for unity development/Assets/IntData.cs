@@ -8,5 +8,12 @@ public class IntData : ScriptableObject
     
     public int intData;
 
+    public void UpadteInt()
+    {
+
+
+
+    }
+
 
 }

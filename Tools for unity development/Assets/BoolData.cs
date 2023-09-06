@@ -6,4 +6,11 @@ using UnityEngine;
 public class BoolData : ScriptableObject
 {
     public bool boolData;
+
+    public void UpdateBool()
+    {
+
+
+        
+    }
 }
