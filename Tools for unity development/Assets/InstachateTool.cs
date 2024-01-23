@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class InstachateTool : MonoBehaviour
 {
@@ -14,4 +15,5 @@ public class InstachateTool : MonoBehaviour
         Instantiate(spawningObject, spawningPoint.transform.position, Quaternion.identity);
         
     }
+    
 }
