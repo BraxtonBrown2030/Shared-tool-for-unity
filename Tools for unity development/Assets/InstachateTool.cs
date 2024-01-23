@@ -12,8 +12,16 @@ public class InstachateTool : MonoBehaviour
     void Update()
     {
 
-        Instantiate(spawningObject, spawningPoint.transform.position, Quaternion.identity);
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(spawningObject, spawningPoint.transform.position, Quaternion.identity);
+        }
         
     }
     
 }
+
+/*
+ * is there a way to check how many objects or in a certain area
+ * 
+ */
