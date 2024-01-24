@@ -8,10 +8,17 @@ public class IntData : ScriptableObject
     
     public int intData;
 
-    public void UpadteInt()
+    public void UpadteInt(int number)
     {
 
+        intData += number;
 
+    }
+    
+    public void ReplaceIntVaule(int number)
+    {
+
+        intData = number;
 
     }
 

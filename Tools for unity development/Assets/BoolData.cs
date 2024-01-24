@@ -2,15 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu (menuName = "Single Varable / BoolData")]
+[CreateAssetMenu(menuName = "Single Varable / BoolData")]
 public class BoolData : ScriptableObject
 {
     public bool boolData;
 
-    public void UpdateBool()
+    public void UpdateVauleOn(bool On)
     {
 
+        bool = true;
 
-        
     }
+
+    public void UpdateVauleOff(bool off)
+    {
+
+        bool = false;
+
+    }
+
 }
