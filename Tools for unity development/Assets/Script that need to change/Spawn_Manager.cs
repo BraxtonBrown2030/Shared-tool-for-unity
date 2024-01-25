@@ -18,13 +18,13 @@ public class Spawn_Manager : MonoBehaviour
     public float maxNumberOfEmenys;
     public float maxSlide;
     public float maxtop;
-    private Player_Controller _Player;
+    private GameObject _Player;
     private Wave_Manager wave_Manager;
 
 
     void Start()
     {
-        _Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Controller>();
+        
         wave_Manager = GameObject.FindGameObjectWithTag("Wave_Manager").GetComponent<Wave_Manager>();
     }
 

@@ -19,14 +19,12 @@ public GameObject[] _Powerups;
 public float numberOfPowerUps;
 
 [Header("Scripts")]
-private Player_Controller _Player;
+private GameObject _Player;
 
 public float _allpowerups;
 
     void Start()
     {
-        
-        _Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Controller>();
 
         _allpowerups = GameObject.FindGameObjectsWithTag("Health_Power").Length + GameObject.FindGameObjectsWithTag("Speed_Power").Length + GameObject.FindGameObjectsWithTag("Tripple_Power").Length;
     }

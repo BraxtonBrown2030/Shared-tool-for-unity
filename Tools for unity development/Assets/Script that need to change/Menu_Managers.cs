@@ -1,20 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Menu_Managers : MonoBehaviour
 {
 
-    private Player_Controller _Player;
+    public ScriptableObject _PlayerHealth;
+    public ScriptableObject _PlayerAlive;
+    public float tempSOvaule;
+    
 
     public bool _IsPauseMenu;
 
     void Start()
     {
-        
-        _Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Controller>();
 
-        if(_Player != null)
+        if(_PlayerAlive != null)
         {
             
             GetComponent<Canvas>().enabled = false;
@@ -25,10 +25,10 @@ public class Menu_Managers : MonoBehaviour
 
     }
 
-   public void Update()
+   public void OnEventTrigger()
     {
-        
-        if(_Player._Health <= 0)
+        // add float data to of statement to set trigger to player health vaule
+        if(_PlayerHealth)
         {
 
             GetComponent<Canvas>().enabled = true;
