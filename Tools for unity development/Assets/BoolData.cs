@@ -10,14 +10,14 @@ public class BoolData : ScriptableObject
     public void UpdateVauleOn(bool On)
     {
 
-        bool = true;
+        boolData = true;
 
     }
 
     public void UpdateVauleOff(bool off)
     {
 
-        bool = false;
+        boolData = false;
 
     }
 
