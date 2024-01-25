@@ -10,14 +10,14 @@ public class FloatData :ScriptableObject
     public void UpdateFloatVaule(float number)
     {
 
-        numberfloat += number;
+        numberFloat += number;
 
     }
 
-    public void ReplaceFloatVaule(flaot number)
+    public void ReplaceFloatVaule(float number)
     {
 
-        numberfloat = number;
+        numberFloat = number;
 
     }
 }
