@@ -6,6 +6,7 @@ using UnityEngine;
 public class FloatData :ScriptableObject
 {
     public float numberFloat;
+    public float value;
 
     public void UpdateFloatVaule(float number)
     {
