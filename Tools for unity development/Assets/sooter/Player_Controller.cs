@@ -15,7 +15,6 @@ public int _Health = 3;
 
 [Header("Movment")]
 public float _Speed;
-
 [Header("Player Combat")]
 [SerializeField] private float attackSpeed = 1f;
 [SerializeField] private float lastAttackTime = 0.7f;
